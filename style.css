@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,400;0,600;700;1,300;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bordo:#6a040f;
+    --bordodark:#370617;
+    --rojoclarito:#d00000;
+    --bold:900;
+    --medium:700;
+    --regular:400;
+    --thin:300;
+}
+
+body{
+    /* width: 50vh; */
+    font-family: "Poppins";
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none;
+}
+
+header{
+    background:#370617 ;
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+
+/* Menu */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+
+.menu i{
+    font-size: 2rem;
+    color:#370617;
+}
+
+.container-items{
+    width: 100%;
+    order: 1;
+}
+
+.item{
+    text-align: center;
+    text-transform: uppercase;
+padding:1rem 0;
+display: none;
+}
+
+/*Terminado el Menu */
+
+/* Seccion 1 */
+
+
+.about-section{
+    border: 5px solid #6a040f;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+
+/* About- content */
+.about-section{
+    text-align: center;
+    color: #e0e1dd;
+}
+
+
+.about-section p{
+    font-size: 2.5rem;
+    font-weight: var(--thin);
+    margin: 1rem 0 4rem 0;
+}
+
+
+.btn-hero{
+    background-color: var(--bordo);
+    font-size: 17px;
+    color: white;
+    padding: 1rem ;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+.about-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+/* Terminada la section 1*/
+
+/*Section 2 description */
+
+.description-section{
+    background: var(--Copper);
+    padding: 5rem 0;
+}
+
+.description-section h3{
+    color:#e0e1dd;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: var(--thin);
+    text-transform: uppercase;
+}
+
+.description-section p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #e0e1dd;
+    max-width: 300px;
+    margin: 2rem auto 2rem auto;
+}
+
+.info-card{
+width: 25%;
+margin-bottom: 2rem;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
