@@ -17,24 +17,21 @@
 }
 
 body{
-    /* width: 50vh; */
+    width: 46vh;
     font-family: "Poppins";
 }
-
 
 a{
     text-decoration: none;
 }
-
 li{
-    list-style:none;
+    list-style: none;
 }
 
 header{
-    background:#370617 ;
-    padding: 3rem 1rem 3rem 1rem;
+    background: #370617;
+    padding: 3rem 1rem 8rem 1rem;
 }
-
 
 /* Menu */
 
@@ -42,12 +39,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
 }
 
 .menu i{
-    font-size: 2rem;
-    color:#370617;
+    font-size: 3rem;
+    color: white;
 }
 
 .container-items{
@@ -55,12 +52,20 @@ header{
     order: 1;
 }
 
+.container-items a{
+    color: white;
+}
+
 .item{
     text-align: center;
     text-transform: uppercase;
-padding:1rem 0;
-display: none;
+    padding: 1rem 0;
+    display: none ;
 }
+
+
+
+
 
 /*Terminado el Menu */
 
@@ -157,74 +162,203 @@ margin-bottom: 2rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* teminado la section 2 */
+
+/* seccion 3 products */
+
+.products-section{
+    padding: 8rem 0;
+}
+
+
+.products-section h2{
+text-align: center;
+font-size: 3rem;
+color:white
+}
+
+
+.products-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.product img{
+max-width: 200px;
+}
+
+.product-{
+   /* background-color: red; */
+   margin-top: 8rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 350px;
+   height: 500px;
+   position: relative;
+}
+
+.product-title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    max-width: 200px;
+    color: white;
+    margin-top: 2rem;
+    font-weight: var(--thin);
+}
+
+.product-price{
+    color:white;
+    color: white;
+    font-weight: var(--medium);
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+
+.btn-products{
+    background-color: #d00000;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+    color:var(--bordodark) ;
+}
+
+.title-container{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #e0e1dd;
+    max-width: 300px;
+    margin: 2rem auto 2rem auto;
+}
+
+.sin-stock{
+    background-color: red;
+    color: white;
+    padding: 1rem 1.3rem;
+    font-size: 2rem;
+    position: absolute;
+    top:2rem;
+}
+
+.disabled{
+    /* background-color: #e0e1dd; */
+    cursor: no-drop;
+}
+
+/* terminada la section 3 */
+
+/* section 4 Carrito */
+.cart-section{
+    padding: 4rem 0;
+}
+
+.cart-section h2{
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+}
+
+
+.cart-section p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin: 1.5rem 0 2rem 0;
+}
+.item-img{
+    width: 90px;
+
+}
+
+.cart-container{
+    background: var(--bordo);
+    width: 95%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: white;
+}
+
+
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.cart-price{
+    font-size: 2rem;
+    font-weight: var(--medium);
+}
+
+.cart-title{
+    font-weight: var(--thin);
+    
+}
+
+
+.total-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--bordodark);
+    margin-top:2rem ;
+    padding: 1rem 3rem;
+}
+
+
+
+/* seccion 4 terminado */
+
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #370617;
+    color: white;
+    padding: 8rem 0;
+    gap: 50px;
+}
+
+footer .title{
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.contacto{
+    margin-bottom: 2rem;
+}
+
+.contacto a{
+    color: white;
+}
+
+.legales{
+    max-width: 280px;
+    margin-bottom: 2rem 0;
+}
 
 
 

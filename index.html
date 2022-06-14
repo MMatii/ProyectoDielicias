@@ -7,27 +7,27 @@
     <title>Dielicias
     </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <!-- Logo -->
-        <ul class="menu"> 
-            <li><a href="#">
-                <img src="./img/logo_solo.png" alt="pandaeria logo" class="logo" width="100">
-            </a>
-        </li>
-        <!-- Links del NavBar -->
-        <div class="container-items">
-            <li class="item"><a href="#About">About</a></li>
-            <li class="item"><a href="#Description">Description</a></li>
-            <li class="item"><a href="#Products">Products</a></li>
-        </div>
-        <!--Menu Bars -->
-        <div class="btn-container">
-            <a href="#"><i class="fa-solid fa-bars"></i></a>
-        </div>
-        </ul>
+            <ul class="menu">
+                <!-- logo -->
+                <li>
+                    <img src="./img/logo_solo.png" alt="" class="logo" width="200"> 
+                </li>
+                <!-- links del navbar -->
+                <div class="container-items">
+                    <li class="item"><a href="#about">about</a></li>
+                     <li class="item"><a href="#description">description</a></li>
+                     <li class="item"><a href="#products">products</a></li>
+                </div>
+            <!-- menu bars -->
+           <div class="btn-container">
+<a href="#"><i class="fa-solid fa-bars"></i></a>
+           </div>
+            </ul>     
     </nav>
     </header>
     <header>
@@ -57,7 +57,7 @@
                     <!-- card 2 -->
                     <div class="card">
                         <img src="./img/facturas-sin-gluten.jpg" alt="info 1" width="200">
-                        <p>Lo agregas al carrito y veras cuando seria el pago. Te aparecera metodos de pagos. </p>
+                        <p>Lo agregas al carrito y veras cuanto seria el pago. Te aparecera metodos de pagos. </p>
                     </div>
                     <!-- card 3 -->
                     <div class="card">
@@ -75,7 +75,96 @@
                     </div>
                 </div>
             </section>
+            <!-- terminada la sectio 2 -->
+
+            <!-- Seccion 3 products -->
+            <section class="products-section">
+                <h2>Promo de Desayunos de dias Especiales</h2>
+                <div class="products-container">
+                    <!-- promos -->
+                    <!-- producto1 -->
+                    <div class="product-">
+                        <img 
+                        src="./img/PROMO DIA DE LOS ENAMORADOS.png" 
+                        alt="" width="300"
+                        >
+                       <p class="product-title">Dia de los Enamorados</p>
+                       <span class="product-price">$1.300</span>
+                       <a href="#products" class="btn-products uppercase disabled">Comprar</a>
+                       <span class="upper sin-stock ">Sin Stock.</span>
+                    </div>
+                    <!-- producto 2 -->
+                    <div class="product-">
+                        <img 
+                        src="./img/PROMO MAMA.png" 
+                        alt="" width="300"
+                        >
+                       <p class="product-title">Dia de la madre</p>
+                       <span class="product-price">$1.300</span>
+                       <a href="#products" class="btn-products">Comprar</a>
+                    </div>
+                    <!-- producto 3 -->
+                    <div class="product-">
+                        <img 
+                        src="./img/promo papa.png" 
+                        alt="" width="300"
+                        >
+                       <p class="product-title">Dia del Padre</p>
+                       <span class="product-price">$1.300</span>
+                       <a href="#products" class="btn-products">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <!-- terminada section 3 -->
+
+            <!-- un p -->
+            <div class="title-container">
+                <P>Obviamente podras tambien armar tu combo y dedicar a la persona que quiera! Tendras nuestro contacto abajo.</P>
+            </div>
+
+            <section class="cart-section" id="carrito">
+                <h2>Aca esta el carrito</h2>
+                <p class="p">Aca podras ver lo que tenes agregado al carrito para hacer la compra y que te llegue a tu casa!</p>
+                <div class="cart-container">
+                    <!--  item 1 -->
+                    <div class="cart-item">
+                        <img src="./img/docena.jpg" alt="" class="item-img" width="200">
+                         <p class="cart-title">Docena de Facturas</p>
+                        <span class="cart-price">$730</span>
+                    </div>
+                     <!--  item 2 -->
+                     <div class="cart-item">
+                        <img src="./img/promo papa.png" alt="" class="item-img" width="200">
+                        <p class="cart-title">Dia del padre</p>
+                        <span class="cart-price">$1.300</span>
+                    </div>
+                   <!-- total -->
+                   <div class="total-items">
+                    <p class="total">Total:$NaN</p>
+                    <a href="#" class="btn-products upper">Finalizar Compra</a>
+                   </div>
+
+                </div>
+
+            </section>
         </main>
+        <footer>
+            <div class="title">
+                <H1>DIELICIAS</H1>
+            </div>
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <a href="#">1568485453</a>
+                <p>C. 843 2560, San Francisco Solano</p>
+            </div>
+            <div class="legales">
+                <h2>Legales </h2>
+                <p>
+                    Cualquier inconveniente no dude en dirigirse al local o contactarnos. Nostros le ayudaremos sin ningun problema.
+                </p>
+            </div>
+            <p>hecho con ♥ Mati</p>
+        </footer>
     </header>
 </body>
 </html>
