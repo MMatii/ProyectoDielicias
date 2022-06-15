@@ -17,20 +17,23 @@
 }
 
 body{
-    width: 46vh;
+    width: 44vh;
     font-family: "Poppins";
 }
 
 a{
     text-decoration: none;
 }
+
+
+
 li{
     list-style: none;
 }
 
 header{
     background: #370617;
-    padding: 3rem 1rem 8rem 1rem;
+    padding: 3rem 1rem 5rem 1rem;
 }
 
 /* Menu */
@@ -43,7 +46,7 @@ header{
 }
 
 .menu i{
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
 }
 
@@ -63,9 +66,72 @@ header{
     display: none ;
 }
 
+.item a:visited{
+    color:white;
+}
+
+.item a:visited{
+color:white;
+}
+
+/* POR LAS DUDAS  */
+ /* .menu-button{
+    background-color:white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 10px;
+    margin: 20px auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-button span{
+    width: 30px;
+    height: 4px;
+    background:white;
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+ }
+
+ .menu-toggle{
+    display: none;
+}
+
+.toggle{
+    text-align: center;
+    background-color:#6a040f;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 200px;
+    margin: 20px auto;
+    display: none;
+    
+}
 
 
-
+.toggle li{
+    list-style-type: none;
+    padding: 10px 0;
+    color:white;
+}
+.menu-toggle:checked ~ .toggle{
+    display: block;
+    } */
 
 /*Terminado el Menu */
 
@@ -73,8 +139,8 @@ header{
 
 
 .about-section{
-    border: 5px solid #6a040f;
-    border-radius: 2rem;
+    /* border: 5px solid #6a040f; */
+    /* border-radius: 2rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -359,6 +425,322 @@ footer .title{
     max-width: 280px;
     margin-bottom: 2rem 0;
 }
+
+
+
+/* Media queries Desktop */
+
+@media screen and (min-width:1025px){
+    body{
+        width: 216vh;
+
+    }
+    
+    
+    /* menu */
+    .menu{
+        flex-wrap: nowrap;
+        justify-content: ;
+        
+    }
+    .container-items{
+        display: flex;
+        justify-content:flex-end;
+    }
+    .item{
+        display: flex;
+        padding: 20px;
+    }
+    .btn-container{
+        display: none;
+    }
+
+/* section 1 */
+
+.about-section{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    justify-content: flex-start;
+    align-items:flex-start;
+    max-width: 70%;
+}
+
+.about-content h1{
+font-size: 8rem;
+}
+
+.manjar{
+  width: 500px;
+  margin: 0;
+}
+
+/* section 1 terminado */
+
+/* section 2 */
+
+.description-section{
+    padding-bottom: 0;
+}
+
+ .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+.descriptio-section p{
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
