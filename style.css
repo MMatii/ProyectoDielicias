@@ -17,7 +17,7 @@
 }
 
 body{
-    width: 50vh;
+    /* width: 45vh; */
     font-family: "Poppins";
     background: #370617;
 }
@@ -228,7 +228,9 @@ margin-bottom: 2rem;
    
 }
 
-
+.img-card{
+    width: 200px;
+}
 
 
 /* teminado la section 2 */
@@ -423,10 +425,17 @@ footer .title{
     color: white;
 }
 
-.legales{
-    max-width: 280px;
-    margin-bottom: 2rem 0;
+.redes{
+    margin: 5rem;
 }
+
+
+
+.ubi{
+    width: 300px;
+    height: 300px;
+}
+
 
 
 
@@ -434,7 +443,7 @@ footer .title{
 
 @media screen and (min-width:1025px){
     body{
-        width: 216vh;
+        width: 200  vh;
 
     }
     
@@ -473,6 +482,7 @@ footer .title{
 
 .about-content h1{
 font-size: 8rem;
+
 }
 
 .manjar{
@@ -493,6 +503,7 @@ font-size: 8rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     
  }
  .img-card{
@@ -540,6 +551,60 @@ font-size: 8rem;
     margin: 2rem auto;
 }
 
+/* SECTION 4 TERMINADA  */
+
+/* footer */
+
+
+.title h1{
+    font-size: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-container{
+   gap: 200px;
+   display: flex;
+   flex-direction: row;
+
+}
+
+.contacto{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.redes{
+    font-size: 2rem;
+    margin: 0 auto;
+    
+}
+
+
+.redes a{
+color: white;
+}
+
+
+.ubicaciones{
+    font-size: 2rem;
+}
+
+
+.ubi{
+    width: 400px;
+    height: 400px;
+}
+
+ .mati{
+    font-size: 2rem;
+}
 
 
 
@@ -560,21 +625,7 @@ font-size: 8rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
